@@ -13,7 +13,7 @@ This is automation API test for [https://bookstore.toolsqa.com/swagger/](https:/
 npm install
 ```
 
-- Create .env file by copy form .env.example file and fill all credential with valid URL and registered user credential
+- Create .env file by copy from .env.example file and fill all credentials with valid URL and registered user credentials
 - To run tests, execute this command
 
 ```
