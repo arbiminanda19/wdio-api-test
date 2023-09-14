@@ -3,13 +3,9 @@ const {
 } = require("../../data/account/account.data");
 const { getToken } = require("../../helper/getToken");
 
-async function main() {
-  try {
+describe("API Test Suite", () => {
+  it("should return a 200 status code", async () => {
     const token = await getToken(REQUEST_VALID_GENERATE_TOKEN);
     console.log(token);
-  } catch (error) {
-    console.error("Error:", error);
-  }
-}
-
-main();
+  });
+});

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,12 @@
     "axios": "^1.5.0",
     "dotenv": "^16.3.1",
     "faker": "^6.6.6",
+    "wdio-video-reporter": "^4.0.4",
     "webdriverio": "^8.16.7"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.16.7",
+    "@wdio/mocha-framework": "^8.16.7",
+    "@wdio/spec-reporter": "^8.16.7"
   }
 }
