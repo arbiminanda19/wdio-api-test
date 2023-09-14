@@ -20,7 +20,7 @@ before(async () => {
   isbn = await getISBN();
 });
 
-beforeEach(async () => {
+beforeEach(() => {
   headers = {
     "Content-Type": "application/json",
     Authorization: `Bearer ${token}`,
