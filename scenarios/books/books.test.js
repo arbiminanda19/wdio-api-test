@@ -84,7 +84,7 @@ describe("BookStore Collection API Test", () => {
     );
   });
 
-  it("should failed add list of books with incorrect user", async () => {
+  it("should failed add list of books with incorrect user id", async () => {
     const response = await request(BOOK_STORE_API.books)
       .post("")
       .set(headers)
