@@ -19,3 +19,7 @@ npm install
 ```
 npm run wdio
 ```
+
+- Execution summary:
+
+![Summary](/spec-reporter.png)
