@@ -17,6 +17,7 @@
     "chai-json-schema": "^1.5.1",
     "dotenv": "^16.3.1",
     "faker": "^6.6.6",
+    "supertest": "^6.3.3",
     "wdio-video-reporter": "^4.0.4",
     "webdriverio": "^8.16.7"
   },
