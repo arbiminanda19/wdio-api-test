@@ -1,6 +1,6 @@
 # wdio-api-test
 
-Tools Used: WebdriverIO, Axios, Chai
+Tools Used: WebdriverIO, Axios, Chai, Supertest
 
 This is automation API test for [https://bookstore.toolsqa.com/swagger/](https://bookstore.toolsqa.com/swagger/)
 
